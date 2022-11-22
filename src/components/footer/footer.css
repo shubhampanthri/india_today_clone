@@ -1,0 +1,121 @@
+.footer {
+  box-shadow: 0 -2px 29px -22px;
+}
+.footer .footerhead {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.footer .footerhead h1 {
+  font-size: 30px;
+  width: 40%;
+  color: grey;
+  opacity: 0.7;
+}
+.footerhead .socialmediaicon {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+.socialmediaicon i {
+  font-size: 28px;
+  color: grey;
+}
+.footer .footermid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+}
+.footermid .getiton {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.getiton img {
+  background: black;
+  width: 20%;
+  border-radius: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+.footer .footerbottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: aliceblue; */
+}
+.footerbottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 17px;
+  text-transform: capitalize;
+  list-style: none;
+  border-bottom: 1px solid grey;
+  font-weight: 300;
+}
+.footerbottom ul li {
+  cursor: pointer;
+}
+
+.footerbottom .copyright {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid grey;
+  box-shadow: inset 0 -2px 29px -22px;
+}
+.copyright p {
+  height: auto;
+  font-size: 14px;
+  text-align: start;
+  color: grey;
+}
+
+@media screen and (max-width: 550px) {
+  .footer .footerhead {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footerhead .socialmediaicon {
+    width: 100%;
+  }
+  .footerhead .socialmediaicon i {
+    font-size: 20px;
+  }
+  .footer .footermid {
+    height: auto;
+    margin: 27px 0px;
+  }
+  .footermid .getiton {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    margin: auto;
+    width: 100%;
+  }
+  .getiton img {
+    width: 40%;
+  }
+  .footer .footerbottom {
+    height: auto;
+  }
+
+  .footerbottom ul {
+    height: auto;
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .copyright p {
+    font-size: 15px;
+  }
+}

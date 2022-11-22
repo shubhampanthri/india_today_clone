@@ -1,0 +1,25 @@
+.sidebar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 100%;
+  background: #c2c5c8;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: all 0.3s ease-in-out;
+}
+.slide {
+  right: 0;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (min-width: 700px) {
+  .sidebar {
+    width: 200px;
+    position: absolute;
+    top: 155px;
+    left: 0;
+  }
+}

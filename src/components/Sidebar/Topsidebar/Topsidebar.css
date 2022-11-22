@@ -1,0 +1,23 @@
+.topsidebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background-color: #cc0000;
+  height: 80px;
+}
+.topsidebar h3 {
+  font-size: 20px;
+  color: white;
+}
+.topsidebar .fa-close {
+  font-size: 25px;
+  align-self: center;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media only screen and (min-width: 700px) {
+  .topsidebar {
+    display: none;
+  }
+}

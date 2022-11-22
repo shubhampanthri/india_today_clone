@@ -1,0 +1,78 @@
+.midsidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background: inherit;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  top: -12px;
+  left: 0;
+}
+.midsidebarelement1 {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  align-items: center;
+  width: 250px;
+  padding: 10px 15px;
+}
+.midsidebarelement1 i {
+  width: 40px;
+  height: 40px;
+  background: slateblue;
+  position: relative;
+  border-radius: 50%;
+}
+.midsidebarelement1 p {
+  cursor: pointer;
+}
+.midsidebarelement1 i::before {
+  position: absolute;
+  top: 27%;
+  left: 36%;
+  color: white;
+  font-size: 17px;
+}
+
+.midsidebarelement1 p {
+  width: 120px;
+  border-radius: 10px;
+  border: 1px solid red;
+  padding: 3px 0px;
+  height: 100%;
+  color: red;
+}
+.midsidebarelement2 {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  align-items: center;
+  width: 100%;
+  padding: 10px 15px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+.midsidebarelement2 h3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #071d0c;
+}
+.midsidebarelement2 i {
+  font-size: 20px;
+  color: #071d0c;
+  cursor: pointer;
+}
+@media only screen and (min-width: 700px) {
+  .midsidebar {
+    width: 100%;
+    padding: 0;
+    margin: 17px 0px;
+  }
+  .midsidebarelement1 {
+    width: 100%;
+  }
+  .midsidebarelement2 {
+    width: 100%;
+  }
+}

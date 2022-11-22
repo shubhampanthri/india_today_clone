@@ -1,0 +1,27 @@
+.carousel3 {
+  margin: 17px 0px 18px 0px;
+  padding: 6px;
+  background: #ffffff3b;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 1px 1px 12px -3px grey;
+}
+.thirdcarousel {
+  padding: 10px;
+}
+.thirdcarousel .contentheading {
+  text-align: start;
+}
+.thirdcarousel .contentheading p {
+  font-size: 15px;
+  text-align: start;
+  font-weight: 200;
+}
+.newssymbols {
+  width: 100%;
+  height: 40px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  color: darkred;
+}

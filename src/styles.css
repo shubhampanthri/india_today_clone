@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+html {
+  width: 98.5vw;
+}
+body {
+  background: #f8f8f8;
+  position: relative;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+.darked {
+  background: #2e2f2f;
+  color: white;
+}

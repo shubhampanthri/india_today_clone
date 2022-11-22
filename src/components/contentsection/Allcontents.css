@@ -1,0 +1,9 @@
+.allcontents {
+  width: 100%;
+}
+@media only screen and (min-width: 700px) {
+  .allcontents {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+  }
+}

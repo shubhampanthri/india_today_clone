@@ -1,0 +1,33 @@
+.topscroll {
+  width: 100%;
+  height: 25px;
+  -ms-overflow-style: none;
+  overflow-x: scroll;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.topscroll::-webkit-scrollbar {
+  display: none;
+}
+.topscrollul {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+.topscrollul ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.topscrollul ul li {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.topscrollul li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-style: none;
+  color: black;
+}
